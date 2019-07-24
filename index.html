@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="video--input__container">
+            <label for="video">Search Youtube</label>
+            <input type="text" id="video--input">
+        </div>
+        <div class="video--player__container">
+            <iframe id="video-player" src=""></iframe>
+            <div class="video--list"></div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
